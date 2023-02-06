@@ -102,7 +102,7 @@ It's recommended that you've gone through the [hardhat getting started documenta
 
 1. Clone this repo:
 ```
-git clone https://github.com/PatrickAlphaC/dao-template
+git clone https://github.com/Asadu43/Governance_token_DAO_demo
 cd dao-template
 ```
 2. Install dependencies
