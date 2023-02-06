@@ -1,14 +1,11 @@
 # DAO Practice Governance Token
 
-*This has been updated to work with Goerli over Rinkeby*
-
 <div id="top"></div>
 
 - [DAO Template](#dao-template)
   - [About](#about)
     - [How to DAO](#how-to-dao)
     - [No Code Tools](#no-code-tools)
-- [Getting Started](#getting-started)
   - [Requirements](#requirements)
     - [Installation](#installation)
   - [Usage](#usage)
@@ -16,11 +13,7 @@
     - [Off-Chain governance Example](#off-chain-governance-example)
   - [Roadmap](#roadmap)
   - [Contributing](#contributing)
-  - [License](#license)
-  - [Contact](#contact)
   - [Acknowledgments](#acknowledgments)
-
-[You can also see the python/brownie version of this here.](https://github.com/brownie-mix/dao-mix)
 
 <!-- ABOUT THE PROJECT -->
 ## About
@@ -193,8 +186,5 @@ Don't forget to give the project a star! Thanks again!
 * [Vitalik on Governance in General](https://vitalik.ca/general/2017/12/17/voting.html)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-You can check out the [openzeppelin javascript tests](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/e6f26b46fc8015f1b9b09bb85297464069302125/test/governance/extensions/GovernorTimelockControl.test) for a full suite of an example of what is possible. 
 
 
