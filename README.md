@@ -79,16 +79,7 @@ The following have tools to help you start a DAO without having to deploy contra
 - [DAO Leaderboard](https://deepdao.io/#/deepdao/dashboard)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-<!-- GETTING STARTED -->
-# Getting Started 
-
-Work with this repo in the browser (optional)<br/>
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/PatrickAlphaC/dao-template)
-
-It's recommended that you've gone through the [hardhat getting started documentation](https://hardhat.org/getting-started/) before proceeding here. 
+ 
 
 ## Requirements
 
@@ -103,7 +94,6 @@ It's recommended that you've gone through the [hardhat getting started documenta
 1. Clone this repo:
 ```
 git clone https://github.com/Asadu43/Governance_token_DAO_demo
-cd dao-template
 ```
 2. Install dependencies
 ```
