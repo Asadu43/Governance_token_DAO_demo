@@ -97,10 +97,6 @@ It's recommended that you've gone through the [hardhat getting started documenta
 - [Nodejs](https://nodejs.org/en/)
   - You'll know you've installed nodejs right if you can run:
     - `node --version`and get an ouput like: `vx.x.x`
-- [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/) instead of `npm`
-  - You'll know you've installed yarn right if you can run:
-    - `yarn --version` And get an output like: `x.x.x`
-    - You might need to install it with npm
 
 ### Installation
 
@@ -110,12 +106,6 @@ git clone https://github.com/PatrickAlphaC/dao-template
 cd dao-template
 ```
 2. Install dependencies
-```sh
-yarn
-```
-
-or 
-
 ```
 npm i 
 ```
@@ -123,11 +113,8 @@ npm i
 3. Run the test suite (which also has all the functionality)
 
 ```
-yarn hardhat test
-```
-or
-```
-npx hardhat test
+npx hardhat test --logs
+
 ```
 
 If you want to deploy to a testnet:
@@ -192,20 +179,6 @@ Deploy your ERC20 and [make proposals in snapshot](https://docs.snapshot.org/pro
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [] Add Upgradeability examples with the UUPS proxy pattern
-- [] Add Chainlink Oracle Integration with Snapsafe example
-
-See the [open issues](https://github.com/PatrickAlphaC/dao-template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -221,28 +194,6 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
-## Contact
-
-Hardhat - [@HardhatHQ](https://twitter.com/HardhatHQ)
-Patrick Collins - [@patrickalphac](https://twitter.com/patrickalphac)
-
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
 * [Openzeppelin Governance Walkthrough](https://docs.openzeppelin.com/contracts/4.x/governance)
